@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+    margin-bottom: 1rem;
+}
+.text-centered{
+    text-align: center;
+    width: 100%;
+}
+.text-centered h2, .text-centered p{
+    width: 100%;
+}
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.image-gallery, .image-center {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.image-gallery img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+.cta {
+    margin-top: 2rem;
+}
+.cta button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cta button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+main {
+    flex: 1;
+}
+.column-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
